@@ -11,79 +11,79 @@ static func get_string_name(type: Variant.Type) -> String:
 		TYPE_AABB:
 			return "AABB"
 		TYPE_ARRAY:
-			return "array"
+			return "Array"
 		TYPE_BASIS:
-			return "basis"
+			return "Basis"
 		TYPE_BOOL:
 			return "bool"
 		TYPE_CALLABLE:
-			return "callable"
+			return "Callable"
 		TYPE_COLOR:
-			return "color"
+			return "Color"
 		TYPE_DICTIONARY:
-			return "dictionary"
+			return "Dictionary"
 		TYPE_FLOAT:
 			return "float"
 		TYPE_INT:
-			return "integer"
+			return "int"
 		TYPE_MAX:
 			return "max"
 		TYPE_NIL:
-			return "nil"
+			return "null"
 		TYPE_NODE_PATH:
-			return "node path"
+			return "NodePath"
 		TYPE_OBJECT:
-			return "object"
+			return "Object"
 		TYPE_PACKED_BYTE_ARRAY:
-			return "packed byte array"
+			return "PackedByteArray"
 		TYPE_PACKED_COLOR_ARRAY:
-			return "packed color array"
+			return "PackedColorArray"
 		TYPE_PACKED_FLOAT32_ARRAY:
-			return "packed float32 array"
+			return "PackedFloat32Array"
 		TYPE_PACKED_FLOAT64_ARRAY:
-			return "packed float64 array"
+			return "PackedFloat64Array"
 		TYPE_PACKED_INT32_ARRAY:
-			return "packed int32 array"
+			return "PackedInt32Array"
 		TYPE_PACKED_INT64_ARRAY:
-			return "packed int64 array"
+			return "PackedInt64Array"
 		TYPE_PACKED_STRING_ARRAY:
-			return "packed string array"
+			return "PackedStringArray"
 		TYPE_PACKED_VECTOR2_ARRAY:
-			return "packed 2D vector array"
+			return "Packed2DVectorArray"
 		TYPE_PACKED_VECTOR3_ARRAY:
-			return "packed 3D vector array"
+			return "Packed3DVectorArray"
 		TYPE_PLANE:
-			return "plane"
+			return "Plane"
 		TYPE_PROJECTION:
-			return "projection"
+			return "Projection"
 		TYPE_QUATERNION:
-			return "quaternion"
+			return "Quaternion"
 		TYPE_RECT2:
-			return "rect2"
+			return "Rect2"
 		TYPE_RECT2I:
-			return "rect2i"
+			return "Rect2i"
 		TYPE_RID:
-			return "resource ID"
+			return "RID"
 		TYPE_SIGNAL:
-			return "signal"
+			return "Signal"
 		TYPE_STRING:
-			return "string"
+			return "String"
 		TYPE_STRING_NAME:
-			return "string name"
+			return "StringName"
 		TYPE_TRANSFORM2D:
-			return "2D transform"
+			return "2DTransform"
 		TYPE_TRANSFORM3D:
-			return "3D transform"
+			return "3DTransform"
 		TYPE_VECTOR2:
-			return "2D vector"
+			return "Vector2"
 		TYPE_VECTOR2I:
-			return "2D integer vector"
+			return "Vector2i"
 		TYPE_VECTOR3:
-			return "3D vector"
+			return "Vector3"
 		TYPE_VECTOR3I:
-			return "3D integer vector"
+			return "Vector3i"
 		TYPE_VECTOR4:
-			return "4D vector"
+			return "Vector4"
 		TYPE_VECTOR4I:
-			return "4D integer vector"
+			return "Vector4i"
 	return "unknown"
