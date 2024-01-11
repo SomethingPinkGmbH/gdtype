@@ -1,3 +1,4 @@
+@tool
 class_name Type extends Object
 
 static func get_type(variable) -> Variant.Type:

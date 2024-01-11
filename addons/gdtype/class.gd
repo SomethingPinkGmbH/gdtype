@@ -1,4 +1,5 @@
-class_name Class extends Node
+@tool
+class_name Class extends Object
 
 ## This is the string returned when the algorithm can't determine the class. This is usually because
 ## it's an inner or generated class.
