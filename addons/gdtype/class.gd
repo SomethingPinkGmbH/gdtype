@@ -65,6 +65,8 @@ static func _build_classmaps():
 	for cls_name in ClassDB.get_class_list():
 		if !ClassDB.can_instantiate(cls_name):
 			continue
+		if cls_name == "GDScriptLanguageProtocol" or cls_name == "GDScriptTextDocument" or cls_name == "GDScriptWorkspace":
+			continue
 		class_to_name += cls_name + ': "' + cls_name + '",\n'
 		name_to_class += '"' + cls_name + '": ' + cls_name + ',\n'
 		
